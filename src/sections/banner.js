@@ -15,10 +15,12 @@ const Banner = () => {
       <Container sx={styles.container}>
         <Grid sx={styles.grid}>
           <Box sx={styles.content}>
-            <Heading as="h3">Frontend Engineer at Cashia</Heading>
+            <Heading as="h3">Easy to Use SMS Service Provider in Kenya</Heading>
             <Text as="p">
-              Expert in web technologies with a focus on good user experience
-              and performance optimization.
+              We are the Bulk SMS Platform for sending SMS Payment Reminders,
+              SMS Marketing Campaigns and Group Messages in Kenya. If SMS
+              Messaging is a critical part of your Business you can rest easy
+              with SMSLeopard.
             </Text>
             <Box as="form" sx={styles.form}>
               <Box as="label" htmlFor="subscribe" variant="styles.srOnly">
@@ -31,7 +33,7 @@ const Banner = () => {
                 sx={styles.form.input}
               />
               <Button type="submit" sx={styles.form.button}>
-                Contact Me
+                Start Now
               </Button>
             </Box>
             <Box sx={styles.partner}>
@@ -81,16 +83,16 @@ const styles = {
       letterSpacing: ["-.7px", "-1.5px"],
       mb: ["15px", null, null, null, "20px"],
       width: ["100%"],
-      maxWidth: ["100%", null, null, "90%", "100%", "540px"],
-      fontSize: [6, null, null, "36px", null, "55px", 9],
+      maxWidth: ["100%", null, null, "90%", "100%", "640px"],
+      fontSize: [5, null, null, "32px", null, "45px", 8],
     },
     p: {
       fontSize: [1, null, null, 2, null, 3],
       lineHeight: ["26px", null, null, null, 2.33],
       color: "text_secondary",
-      mb: ["20px", null, null, null, null, "30px"],
+      mb: ["20px", null, null, null, null, "25px"],
       width: ["100%"],
-      maxWidth: ["100%", null, null, null, null, "500px"],
+      maxWidth: ["100%", null, null, null, null, "600px"],
       br: {
         display: ["none", null, null, null, "inherit"],
       },
@@ -114,7 +116,7 @@ const styles = {
     button: {
       fontSize: [1, null, null, null, 2, "20px"],
       borderRadius: ["4px"],
-      height: ["45px", null, null, "55px", null, null, "65px"],
+      height: ["45px", null, null, "55px", null, null, "60px"],
       padding: ["0 15px"],
       ml: ["10px"],
       width: ["auto", null, null, null, "180px"],
